@@ -1,0 +1,52 @@
+html
+{
+    scroll-behavior: smooth;
+}
+#myVideo 
+{
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+}
+i.fa.fa-bars:before
+{
+    position: relative;
+    top: 25px;
+    color: white;
+    font-size: 35px;
+    left: 45px;
+    z-index: 9999;
+}
+.header-navigation
+{
+    height: 85px;
+}
+.main-nav__main-navigation 
+{
+    display: none;
+}
+.main-nav__navigation-box li 
+{
+    position: relative;
+    margin-top: 5px;
+    text-align: right;
+}
+.rectangle
+{
+    background-color: whitesmoke;
+    opacity: 0.5;
+    border: 1px;
+    border-radius: 45px;
+    width: 50% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logox
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75% !important;
+    opacity: 1 !important;
+}
