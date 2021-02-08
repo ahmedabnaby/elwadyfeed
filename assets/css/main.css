@@ -1,6 +1,26 @@
+@font-face {
+    font-family: GE;
+    src: url(../fonts/GE\ SS\ Two/GE_SS_Two_Light.otf);
+    }
+    @font-face {
+    font-family: GEBold;
+    src: url(../fonts/GE\ SS\ Two/GE_SS_Two_Bold.otf);
+    }
 html
 {
     scroll-behavior: smooth;
+}
+body
+{
+    font-family: GE !important;
+}
+h2
+{
+    font-family: GE;
+}
+h3
+{
+    font-family: GEBold !important;
 }
 #myVideo 
 {
@@ -27,11 +47,13 @@ i.fa.fa-bars:before
 {
     display: none;
 }
-.main-nav__navigation-box li 
+.main-nav__navigation-box li a
 {
     position: relative;
-    margin-top: 5px;
+    margin-top: 27px;
     text-align: right;
+    font-family: GE !important;
+    font-size: 35px;
 }
 .rectangle
 {
@@ -49,4 +71,49 @@ i.fa.fa-bars:before
     margin-right: auto;
     width: 75% !important;
     opacity: 1 !important;
+}
+.preloader__image
+{
+    width: 25%;
+}
+.header_3_images
+{
+    position: relative;
+    z-index: 1;
+    top: -155px;
+    left: 15%;
+}
+.leaf-width
+{
+    width: 70% !important;
+}
+.project_three_content
+{
+    position: relative;
+    top: -75px;
+    background-color: lightgrey;
+    border: 1px;
+    border-radius: 45px;
+    text-align: right;
+    width: 75%;
+}
+.project_three_content h2
+{
+    color: black;
+    font-size: 25px;
+    padding: 25px;
+}
+.project_three_hover_box
+{
+    background-color: lightgrey;
+    border: 1px;
+    border-radius: 45px;
+    text-align: right;
+    width: 75%;
+}
+.project_three_hover_box p
+{
+    color: black;
+    font-size: 25px;
+    padding: 25px;
 }
