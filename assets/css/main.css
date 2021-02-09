@@ -22,6 +22,10 @@ h3
 {
     font-family: GEBold !important;
 }
+h4
+{
+    font-family: GE;
+}
 #myVideo 
 {
 position: fixed;
@@ -118,4 +122,45 @@ i.fa.fa-bars:before
     color: gray;
     font-size: 25px;
     padding: 25px;
+}
+.nemo_bela
+{
+}
+.nemo
+{
+    position: relative;
+    left: 40%;
+}
+.phone-mock
+{
+    position: relative;
+    left: 10%;
+}
+.eshterek
+{
+    position: relative;
+    top: 100px;
+    right: 32%;
+}
+.arrowz
+{
+    position: absolute;
+    margin-top: -155px;
+    left: 40%;
+    width: 6%;
+}
+.edkhol
+{
+    position: relative;
+    top: 105px;
+    color: black;
+}
+.etegahat
+{
+    border: 1px;
+    border-radius: 40px;
+    background-color: gray;
+    font-size: 15px;
+    padding: 15px;
+    color: white;
 }
