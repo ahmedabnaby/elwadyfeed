@@ -111,7 +111,7 @@ Brand One Carousel
             smartSpeed: 500,
             autoHeight: false,
             autoplay: true,
-            dots: false,
+            dots: true,
             autoplayTimeout: 10000,
             navText: [
                 '<span class="fa fa-angle-left"></span>',

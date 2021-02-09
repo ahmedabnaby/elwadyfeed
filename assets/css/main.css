@@ -126,7 +126,7 @@ i.fa.fa-bars:before
 .nemo
 {
     position: relative;
-    left: 40%;
+    left: 38%;
 }
 .phone-mock
 {
@@ -160,6 +160,10 @@ i.fa.fa-bars:before
     font-size: 15px;
     padding: 15px;
     color: white;
+}
+.lightgray
+{
+    background-color: lightgray !important;
 }
 @media (min-width:1280px) and (max-width:1365px)
 {
