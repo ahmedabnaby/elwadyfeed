@@ -26,6 +26,10 @@ h4
 {
     font-family: GE;
 }
+h5
+{
+    font-family: GE;
+}
 #myVideo 
 {
 position: fixed;
@@ -57,7 +61,7 @@ i.fa.fa-bars:before
     margin-top: 27px;
     text-align: right;
     font-family: GE !important;
-    font-size: 35px;
+    font-size: 25px;
 }
 .rectangle
 {
@@ -85,11 +89,19 @@ i.fa.fa-bars:before
     position: relative;
     z-index: 1;
     top: -155px;
-    left: 15%;
+    left: 20%;
 }
 .leaf-width
 {
-    width: 70% !important;
+    width: 60% !important;
+}
+.welcome_two
+{
+    margin-top: -185px !important;
+}
+.recent_project_three
+{
+    margin-top: -155px !important;
 }
 .project_three_content
 {
@@ -142,9 +154,9 @@ i.fa.fa-bars:before
 .arrowz
 {
     position: absolute;
-    margin-top: -155px;
-    left: 40%;
-    width: 6%;
+    margin-top: -45px;
+    left: 45%;
+    width: 4%;
 }
 .edkhol
 {
@@ -177,7 +189,10 @@ i.fa.fa-bars:before
         left: 40px;
         margin-top: 15px;
     }
-    
+    .project_three_hover_box p
+    {
+        font-size: 15px !important;
+    }
 }
 @media (min-width:1366px) and (max-width:1439px)
 {
@@ -191,6 +206,10 @@ i.fa.fa-bars:before
         left: 45px;
         margin-top: 25px;
     }
+    .project_three_hover_box p
+    {
+        font-size: 17px !important;
+    }
 }
 @media (min-width:1440px) and (max-width:1680px)
 {
@@ -203,5 +222,9 @@ i.fa.fa-bars:before
     {
         left: 45px;
         margin-top: 25px;
+    }
+    .project_three_hover_box p
+    {
+        font-size: 17px !important;
     }
 }

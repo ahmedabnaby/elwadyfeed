@@ -5580,7 +5580,7 @@ h6 {
     background-attachment: fixed;
     background-size: cover;
     display: block;
-    padding: 135px 0 232px;
+    padding: 35px 0 32px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -5639,10 +5639,11 @@ h6 {
 }
 .eco_friendly_title h2 {
     color: #ffffff;
-    font-size: 80px;
+    font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
     margin: 0;
+    margin-top: -15px;
     line-height: 77px;
 }
 /*--------------------------------------------------------------
