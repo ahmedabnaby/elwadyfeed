@@ -193,6 +193,10 @@ i.fa.fa-bars:before
     {
         font-size: 15px !important;
     }
+    .eco_friendly_title h2 {
+        font-size: 30px !important;
+    }
+
 }
 @media (min-width:1366px) and (max-width:1439px)
 {
@@ -209,6 +213,9 @@ i.fa.fa-bars:before
     .project_three_hover_box p
     {
         font-size: 17px !important;
+    }
+    .eco_friendly_title h2 {
+        font-size: 35px !important;
     }
 }
 @media (min-width:1440px) and (max-width:1680px)
