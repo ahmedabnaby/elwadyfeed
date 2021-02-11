@@ -86,10 +86,23 @@ i.fa.fa-bars:before
 }
 .header_3_images
 {
-    position: relative;
-    z-index: 1;
+    position: absolute;
+    z-index: 21;
     top: -155px;
-    left: 20%;
+    left:30%;
+}
+.slider_move
+{
+    position: relative;
+    left: 55%;
+    top: -1041px;
+}
+.move
+{
+    position: relative;
+    top: 125px !important;
+    height: 1200px !important;
+    width: 45%;
 }
 .leaf-width
 {
@@ -151,6 +164,10 @@ i.fa.fa-bars:before
     top: 100px;
     right: 32%;
 }
+.eshterek h3
+{
+    color: wheat;
+}
 .arrowz
 {
     position: absolute;
@@ -168,7 +185,7 @@ i.fa.fa-bars:before
 {
     border: 1px;
     border-radius: 40px;
-    background-color: gray;
+    background-color: #66594f;
     font-size: 15px;
     padding: 15px;
     color: white;
@@ -176,6 +193,10 @@ i.fa.fa-bars:before
 .lightgray
 {
     background-color: lightgray !important;
+}
+.factory_img
+{
+    margin-top: -295px !important;
 }
 @media (min-width:1280px) and (max-width:1365px)
 {

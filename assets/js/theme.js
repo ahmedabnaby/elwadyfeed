@@ -172,12 +172,12 @@ Brand One Carousel
     //Main Slider / Banner Carousel Two
     if ($(".banner-carousel-two").length) {
         $(".banner-carousel-two").owlCarousel({
-            loop: true,
+            loop: false,
             animateOut: "fadeOut",
             animateIn: "fadeIn",
             margin: 0,
             nav: true,
-            dots: false,
+            dots: true,
             smartSpeed: 500,
             autoplay: true,
             autoplayTimeout: 7000,
@@ -205,14 +205,14 @@ Brand One Carousel
     //Main Slider / Banner Carousel Three
     if ($(".banner-carousel-three").length) {
         $(".banner-carousel-three").owlCarousel({
-            loop: true,
+            loop: false,
             animateOut: "fadeOut",
             animateIn: "fadeIn",
             margin: 0,
             nav: true,
-            dots: false,
+            dots: true,
             smartSpeed: 500,
-            autoplay: true,
+            autoplay: false,
             autoplayTimeout: 7000,
             navText: [
                 '<span class="icon-left-arrow"></span>',

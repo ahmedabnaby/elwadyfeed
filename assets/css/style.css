@@ -1249,7 +1249,7 @@ h6 {
 }
 
 .topbar_three_nav_box .stricked-menu {
-    background-color: var(--thm-black);
+    background-color: #66594f;
 }
 .stricked-menu .main_nav_header_three_content {
     padding-left: 0px;
@@ -2186,7 +2186,6 @@ h6 {
 .banner-section .owl-theme .owl-dots .owl-dot {
     position: relative;
     display: block;
-    vertical-align: top;
     margin: 4px 0px;
     outline: none;
 }
@@ -2479,7 +2478,7 @@ h6 {
     background-color: #111111;
     color: #ffffff;
     overflow: hidden;
-    height: 860px;
+    height: 1160px;
 }
 .banner-carousel-three .slide-item:before {
     content: "";
@@ -2487,7 +2486,7 @@ h6 {
     left: 0;
     top: 0;
     width: 100%;
-    height: 860px;
+    height: 1160px;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
@@ -3777,7 +3776,7 @@ h6 {
 .site-footer {
     position: relative;
     display: block;
-    background: var(--thm-black);
+    background: #938173 !important;
     padding: 34px 0 28px;
 }
 .site-footer_farm_image {
@@ -4017,7 +4016,7 @@ h6 {
     position: relative;
     display: block;
     padding: 28px 0 29px;
-    background: #394336;
+    background: #66594f;
 }
 .site-footer_bottom .container {
     display: -webkit-box;
@@ -5593,7 +5592,7 @@ h6 {
     right: 0;
     content: "";
     /* background: rgba(57, 67, 54, 0.5); */
-    background-color: rgb(199, 199, 199);
+    background-color: #938173;
 }
 .eco_friendly_content {
     position: relative;
@@ -5646,6 +5645,85 @@ h6 {
     margin-top: -15px;
     line-height: 77px;
 }
+
+.eco_friendly-2 {
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    padding: 35px 0 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.eco_friendly-2:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    /* background: rgba(57, 67, 54, 0.5); */
+    background-image: url(../images/wady/textured-bg.jpg) !important;
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1050px !important;
+
+}
+.eco_friendly-2_content {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.eco_friendly-2_icon_box {
+    position: relative;
+    height: 115px;
+    width: 115px;
+    background: var(--thm-base);
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms;
+}
+.eco_friendly-2_icon_box:hover {
+    background-color: var(--thm-black);
+    color: #fff;
+}
+.eco_friendly-2_icon_box:hover span {
+    color: #fff;
+}
+.eco_friendly-2_icon_box:before {
+    position: absolute;
+    content: "";
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    border: 2px dashed #ece9e3;
+    border-radius: 50%;
+}
+.eco_friendly-2_icon_box span {
+    color: var(--thm-black);
+    font-size: 60px;
+    transition: 500ms;
+}
+.eco_friendly-2_title {
+    margin-top: 57px;
+}
+.eco_friendly-2_title h2 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: -15px;
+    line-height: 77px;
+}
+
 /*--------------------------------------------------------------
 # Service Four
 --------------------------------------------------------------*/
@@ -7798,7 +7876,6 @@ h6 {
     position: relative;
     display: inline-block;
     background: var(--thm-base);
-    float: right;
     text-align: center;
     width: 70px;
     border: none;
@@ -8368,7 +8445,6 @@ h6 {
 .product-tab-box .tab-btns .tab-btn {
     position: relative;
     display: inline-block;
-    float: left;
     margin-right: 10px;
 }
 .product-tab-box .tab-btns .tab-btn:last-child {
@@ -9568,7 +9644,6 @@ h6 {
 .banner_four_section .owl-theme .owl-dots .owl-dot {
     position: relative;
     display: block;
-    vertical-align: top;
     margin: 4px 0px;
     outline: none;
 }
